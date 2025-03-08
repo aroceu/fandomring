@@ -1,0 +1,199 @@
+body{
+		background-color: #E1CDC1;
+background-image: url('sandpaper.png');
+		font: normal 105%/160% 'EB Garamond', serif;
+		margin: 0;
+		padding: 0;
+		color: #333;
+	}
+
+	#container{
+		width: 60vw;
+		margin: 0 auto;
+		padding: 3em 1em;
+	}
+
+	#header{
+		font: normal 230% 'Playwrite GB S', cursive;
+		text-transform: lowercase;
+		text-align: center;
+		margin: 0 auto;
+		color: #9b3528;
+		text-shadow: 0.06em 0.06em 0 #dba774;
+	}
+
+	#subheader{
+		text-transform: lowercase;
+		font: normal 150% 'EB Garamond', serif;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+
+	#navigation{
+		
+	}
+
+	#navigation ul{
+		list-style-type: none;
+		margin: 1em 0;
+		padding: 0;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	#navigation ul li{
+		display: inline-block;
+	}
+
+	#navigation ul li a:link, #navigation ul li a:visited{
+		color: #333;
+		padding: 0 2em;
+		text-decoration: none;
+	}
+
+	#navigation ul li a:hover, #navigation ul li a:focus{
+		background: #dba774;
+		text-decoration: none;
+	}
+
+	#content::before, #content::after{
+		background: url('flower.png') top repeat-x;
+  content: ' ';
+  height: 20px;
+  display: block;
+	}
+
+	#content::after{
+		margin-top: 2em;
+	}
+
+	#content{
+		margin: 2em auto 0;
+		font-size: 110%;
+	}
+
+	#rings::after{
+		background: url('flower.png') top repeat-x;
+  content: ' ';
+  height: 20px;
+  display: block;
+	}
+
+	#rings{
+		margin-bottom: 2em;
+		font: normal 120% 'EB Garamond', serif;
+	}
+
+	h1{
+		font: normal 160% 'Playwrite GB S', cursive;
+		text-transform: lowercase;
+		color: #9b3528;
+		text-align: center;
+	}
+
+	h2{
+		background: url('book.gif') top left no-repeat;
+    background-size: auto;
+  height: 35px;
+  background-size: contain;
+  padding-left: 2.5em;
+  font: italic 170% 'EB Garamond', serif;
+  text-transform: lowercase;
+  color: #6F0000;
+	}
+
+	#footer{
+		text-align: center;
+		color: #681E13;
+		font: normal 90% 'Playwrite GB S', cursive;
+	}
+
+	a:link, a:visited{
+		color: #681E13;
+		text-decoration: underline dotted #9b3528;
+	}
+
+	a:hover, a:focus{
+		color: #b7644d;
+		text-decoration: underline solid;
+	}
+
+	big{
+		color: #681E13;
+		font: normal 110% 'Playwrite GB S', cursive;
+	}
+
+	b{
+		color: #681E13;
+	}
+
+	pre{
+		overflow-x: scroll;
+  background: #b2a49d url('sandpaper.png');
+  padding: 1em;
+	}
+
+	blockquote{
+		background: #fff;
+  padding: 1.5em;
+  font-size: 110%;
+  font-family: monospace;
+	}
+
+	#index ul{
+		padding: 0;
+		margin: 0.5em;
+	}
+	
+	#index ul li{
+	    width: 50%;
+  list-style-type: none;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  text-align: center;
+	}
+	
+	#index ul li a:link, #index ul li a:visited{
+	    display: block;
+  text-decoration: none;
+  border-bottom: 1px dotted #9b3528;
+  width: 85%;
+  margin: 0 auto;
+	}
+	
+	#index ul li a:hover, #index ul li a:focus{
+	    background: #9b3528;
+  color: #e5b285;
+  border-bottom: 1px solid #e5b285;
+}
+	
+	#index ul li:nth-child(even){
+	    float: right;
+  margin-top: -27.5px;
+	}
+
+@media only screen and (max-width: 430px) and (min-width: 0px) {
+
+html {
+-webkit-text-size-adjust: none;
+overflow: scroll;
+}
+
+#container{
+	width: 90%;
+}
+
+#index ul{
+    padding: 0;
+}
+
+#index ul li {
+  width: 100%;
+}
+
+#index ul li:nth-child(2n) {
+  float: none;
+  margin-top: 0;
+}
+
+}
