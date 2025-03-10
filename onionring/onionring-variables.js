@@ -30,6 +30,8 @@ var websitesWithNames = [
 {url: 'https://mappapapa.neocities.org/', name: "MAPPAPAPA"},
 {url: 'https://marinehaddock.gay/', name: "MarineHaddock"},
 {url: 'https://mayonmnnaise.nekoweb.org', name: "mayonmnnaise"},
+{url: 'https://miaqcarchive.ca/', name: "MiaQc Archive"},
+{url: 'https://explicit.miaqcarchive.ca/', name: "MiaQc Explicit Archive"},
 {url: 'https://hako-aiko.haliya.net/', name: "Miniature Garden"},
 {url: 'https://rainydaydeer.neocities.org/', name: "Mo's Fortune Telling Tent"},
 {url: 'https://kurt.starburned.org', name: "Montage of Kurt"},

@@ -15,8 +15,8 @@
 	<h1>Directory</h1>
 
 	<div id='index'>
-<script type="text/javascript" src="https://fandomr.ing/onionring/onionring-variables.js"></script>
-<script type="text/javascript" src="https://fandomr.ing/onionring/onionring-index.js"></script>
+<script type="text/javascript" src="onionring/onionring-variables.js"></script>
+<script type="text/javascript" src="onionring/onionring-index.js"></script>
 </div>
 
 
